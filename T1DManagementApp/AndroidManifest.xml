@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.t1dmanagementapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.t1dmanagementapp.AskUser"
+            android:label="@string/title_activity_ask_user" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.BeginMonitoring"
+            android:label="@string/title_activity_begin_monitoring" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.BGCheckingAlarm"
+            android:label="@string/title_activity_bgchecking_alarm" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.BGSchedule"
+            android:label="@string/title_activity_bgschedule" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.ExerciseAlarm"
+            android:label="@string/title_activity_exercise_alarm" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.ExerciseSchedule"
+            android:label="@string/title_activity_exercise_schedule" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.InsulinAlarm"
+            android:label="@string/title_activity_insulin_alarm" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.InsulinSchedule"
+            android:label="@string/title_activity_insulin_schedule" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.MealSchedule"
+            android:label="@string/title_activity_meal_schedule" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.PlotReadings"
+            android:label="@string/title_activity_plot_readings" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.SleepAlarm"
+            android:label="@string/title_activity_sleep_alarm" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.SleepSchedule"
+            android:label="@string/title_activity_sleep_schedule" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.SuggestionAlarm"
+            android:label="@string/title_activity_suggestion_alarm" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.SuggestionSchedule"
+            android:label="@string/title_activity_suggestion_schedule" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.T1DMApplication"
+            android:label="@string/title_activity_t1_dmapplication" >
+        </activity>
+        <activity
+            android:name="com.example.t1dmanagementapp.UserDetailsActivity"
+            android:label="@string/title_activity_user_details" >
+        </activity>
+    </application>
+
+</manifest>

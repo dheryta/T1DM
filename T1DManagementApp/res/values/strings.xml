@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">T1DManagementApp</string>
+    <string name="title_activity_ask_user">AskUser</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_begin_monitoring">BeginMonitoring</string>
+    <string name="title_activity_bgchecking_alarm">BGCheckingAlarm</string>
+    <string name="title_activity_bgschedule">BGSchedule</string>
+    <string name="title_activity_exercise_alarm">ExerciseAlarm</string>
+    <string name="title_activity_exercise_schedule">ExerciseSchedule</string>
+    <string name="title_activity_insulin_alarm">InsulinAlarm</string>
+    <string name="title_activity_insulin_schedule">InsulinSchedule</string>
+    <string name="title_activity_meal_schedule">MealSchedule</string>
+    <string name="title_activity_plot_readings">PlotReadings</string>
+    <string name="title_activity_sleep_alarm">SleepAlarm</string>
+    <string name="title_activity_sleep_schedule">SleepSchedule</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_suggestion_alarm">SuggestionAlarm</string>
+    <string name="title_activity_suggestion_schedule">SuggestionSchedule</string>
+    <string name="title_activity_t1_dmapplication">T1DMApplication</string>
+    <string name="title_activity_user_details">UserDetailsActivity</string>
+
+</resources>
